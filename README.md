@@ -5,24 +5,26 @@ The original Blender files are currently only provided to ICIP reviewers for the
 Please appropriately reference the following paper in any publication making use of the Software.
 Citation: [...]
 
+
+<img src="./videos_and_figures/hoi_subject1_145915_841412060263_000053.jpg" width="225" /> <img src="./videos_and_figures/real_subject1_145915_841412060263_000046.jpg" width="225" />
+
+<img src="./videos_and_figures/hoi_subject2_154450_836212060125_000051.jpg" width="225" /> <img src="./videos_and_figures/real_subject2_154450_836212060125_000035.jpg" width="225" />
+
+<img src="./videos_and_figures/hoi_subject3_141935_932122061900_000055.jpg" width="225" /> <img src="./videos_and_figures/real_subject3_141935_932122061900_000055.jpg" width="225" />
+
+<img src="./videos_and_figures/hoi_subject10_112447_840412060917_000041.jpg" width="225" /> <img src="./videos_and_figures/real_subject10_112447_840412060917_000041.jpg" width="225" />
 <figure>
-<img src="./videos_and_figures/hoi_subject1_145915_841412060263_000053.jpg" width="200" /> <img src="./videos_and_figures/real_subject1_145915_841412060263_000046.jpg" width="200" />
-
-<img src="./videos_and_figures/hoi_subject2_154450_836212060125_000051.jpg" width="200" /> <img src="./videos_and_figures/real_subject2_154450_836212060125_000035.jpg" width="200" />
-
-<img src="./videos_and_figures/hoi_subject3_141935_932122061900_000055.jpg" width="200" /> <img src="./videos_and_figures/real_subject3_141935_932122061900_000055.jpg" width="200" />
-
-<img src="./videos_and_figures/hoi_subject10_112447_840412060917_000041.jpg" width="200" /> <img src="./videos_and_figures/real_subject10_112447_840412060917_000041.jpg" width="200" />
 <figcaption>Qualitative comparison of sample blender-hoisynth images (left) with real DexYCB images (right). </figcaption>
 </figure>
 
 <br><br>
 
+
+<img src="./videos_and_figures/hoi_subject1_153148_932122060857.gif" width="225" alt="Your GIF Description" />
+<img src="./videos_and_figures/hoi_subject2_145951_932122060861.gif" width="225" alt="Your GIF Description" />
+<img src="./videos_and_figures/hoi_subject3_145150_932122062010.gif" width="225" alt="Your GIF Description" />
+<img src="./videos_and_figures/hoi_subject10_110947_839512060362.gif" width="225" alt="Your GIF Description" />
 <figure>
-<img src="./videos_and_figures/hoi_subject1_153148_932122060857.gif" width="200" alt="Your GIF Description" />
-<img src="./videos_and_figures/hoi_subject2_145951_932122060861.gif" width="200" alt="Your GIF Description" />
-<img src="./videos_and_figures/hoi_subject3_145150_932122062010.gif" width="200" alt="Your GIF Description" />
-<img src="./videos_and_figures/hoi_subject10_110947_839512060362.gif" width="200" alt="Your GIF Description" />
 <figcaption>Sample HOI videos generated using blender-hoisynth. </figcaption>
 </figure>
 
