@@ -76,15 +76,15 @@ def set_pose_for_object(obj_name, obj):
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--blend_dir", type=str, default='/home/blendfiles')
-    parser.add_argument("--data_dir", type=str, default='/home/blender-hoisynth/data')
-    parser.add_argument("--pose_dir", type=str, default='/home/blender-hoisynth/data/initial_positions')
+    parser.add_argument("--assets_dir", type=str, default='/home/blender-hoisynth/assets')
+    parser.add_argument("--pose_dir", type=str, default='/home/blender-hoisynth/assets/initial_positions')
     parser.add_argument('--output_folder', type=str, default='/home/blender-hoisynth/BlenderProc/output')
     parser.add_argument('--Subject_id', type=str, default='test')
     parser.add_argument('--hand_armature', type=str, default='0_Armature_rotate_coord_right.004')
     return parser.parse_args()
 
 args=parse_args()
-data_folder=args.data_dir
+assets_folder=args.assets_dir
 initial_positions=args.pose_dir
 blend_folder=args.blend_dir
 for i in range (len(render_config.config_instance.blendfiles)):
@@ -115,7 +115,7 @@ for i in range (len(render_config.config_instance.blendfiles)):
 
 
     # randomly import background objs
-    background_folder=os.path.join(data_folder, 'background_obj')
+    background_folder=os.path.join(assets_folder, 'background_obj')
     background_files = ["bulb.blend", "realsense_cam.blend", "box.blend"]
     ranges = {
         "box": [[[1.58682,3.34652], [-4.3465, 2.3465], [-0.88968, -0.88968]],
@@ -126,7 +126,7 @@ for i in range (len(render_config.config_instance.blendfiles)):
                         [[-0.321311 ,0.848689], [-0.0789,0.5211], [0.0375 , 0.64]],
                         [[-0.321311 ,0.848689], [-1.6429, -1.0429], [0.0375 , 0.64]]]
     }
-    background_const_objs_path=os.path.join(data_folder, 'background_example/background.blend')
+    background_const_objs_path=os.path.join(assets_folder, 'background_example/background.blend')
     background_example_objs = bproc.loader.load_blend(background_const_objs_path,obj_types=['empty', 'light', 'armature', 'mesh','camera'],data_blocks='objects')
     all_loaded_objects=[]
     armature = None

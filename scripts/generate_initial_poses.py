@@ -19,7 +19,7 @@ def find_extrinsics_by_index(subject_num, base_parent_directory):
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--DexYCB_dir', type=str, default='/home/DexYCB')
-    parser.add_argument('--output_dir', type=str, default='/home/blender-hoisynth/data/initial_positions')
+    parser.add_argument('--output_dir', type=str, default='/home/blender-hoisynth/assets/initial_positions')
     return parser.parse_args()
 
 args = parse_args()

@@ -109,16 +109,16 @@ Press P to enter play mode, R to record, Space to save recorded animation and D 
 ### Rendering
 A demo is provided in blendfiles to run the rendering.
 
-Download the data folder to blender-hoisynth for background objects generation
+Download the assets folder to blender-hoisynth for background objects generation
 
 Run
 ```bash
 cd BlenderProc
-blenderproc run examples/rendering/render_animation.py --blend_dir /path/to/blend/files --data_dir /path/to/data/folder --pose_dir /path/to/object/initial/position/folder --output_folder /path/to/output/folder --Subject_id your subject id --hand_armature hand armature name
+blenderproc run examples/rendering/render_animation.py --blend_dir /path/to/blend/files --assets_dir /path/to/assets/folder --pose_dir /path/to/object/initial/position/folder --output_folder /path/to/output/folder --Subject_id your subject id --hand_armature hand armature name
 ```
 
 ### Mano parameters generation
-Download the calibration folder from [DexYCB](https://dex-ycb.github.io/) and place it in blender-hoisynth/data/calibration
+Download the calibration folder from [DexYCB](https://dex-ycb.github.io/) and place it in blender-hoisynth/assets/calibration
 
 Then run
 ```bash

@@ -215,8 +215,8 @@ def fit_global(input_joints,hand_name,n_pose_params,local_pose,betas=None, shape
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--blend_dir", type=str, default='/home/blendfiles')
-    parser.add_argument("--callibration_dir", type=str, default='/home/blender-hoisynth/data/calibration')
-    parser.add_argument("--pose_dir", type=str, default='/home/blender-hoisynth/data/initial_positions')
+    parser.add_argument("--callibration_dir", type=str, default='/home/blender-hoisynth/assets/calibration')
+    parser.add_argument("--pose_dir", type=str, default='/home/blender-hoisynth/assets/initial_positions')
     parser.add_argument('--output_dir', type=str, default='/home/blender-hoisynth/BlenderProc/output')
     parser.add_argument('--mano_dir', type=str, default='mano_20200820_133405_subject-03_right')    
     parser.add_argument('--Subject_id', type=str, default='test')
