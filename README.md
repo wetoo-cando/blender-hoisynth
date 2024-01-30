@@ -3,8 +3,9 @@ This repository is part of the supplementary materials for the ICIP 2024 submiss
 The original Blender files are currently only provided to ICIP reviewers for the peer-review process. These materials will be released conditioned on the acceptance of the paper for publication. 
 
 Please appropriately reference the following paper in any publication making use of the Software.
-Citation: ...
+Citation: [...]
 
+<figure>
 <img src="./videos_and_figures/hoi_subject1_145915_841412060263_000053.jpg" width="250" /> <img src="./videos_and_figures/real_subject1_145915_841412060263_000046.jpg" width="250" />
 
 <img src="./videos_and_figures/hoi_subject2_154450_836212060125_000051.jpg" width="250" /> <img src="./videos_and_figures/real_subject2_154450_836212060125_000035.jpg" width="250" />
@@ -12,11 +13,18 @@ Citation: ...
 <img src="./videos_and_figures/hoi_subject3_141935_932122061900_000055.jpg" width="250" /> <img src="./videos_and_figures/real_subject3_141935_932122061900_000055.jpg" width="250" />
 
 <img src="./videos_and_figures/hoi_subject10_112447_840412060917_000041.jpg" width="250" /> <img src="./videos_and_figures/real_subject10_112447_840412060917_000041.jpg" width="250" />
+<figcaption>Qualitative comparison of sample blender-hoisynth images (left) with real DexYCB images (right). </figcaption>
+</figure>
 
-<img src="./videos_and_figures/hoi_subject1_153148_932122060857.gif" width="300" alt="Your GIF Description" />
-<img src="./videos_and_figures/hoi_subject2_145951_932122060861.gif" width="300" alt="Your GIF Description" />
-<img src="./videos_and_figures/hoi_subject3_145150_932122062010.gif" width="300" alt="Your GIF Description" />
-<img src="./videos_and_figures/hoi_subject10_110947_839512060362.gif" width="300" alt="Your GIF Description" />
+<br><br>
+
+<figure>
+<img src="./videos_and_figures/hoi_subject1_153148_932122060857.gif" width="250" alt="Your GIF Description" />
+<img src="./videos_and_figures/hoi_subject2_145951_932122060861.gif" width="250" alt="Your GIF Description" />
+<img src="./videos_and_figures/hoi_subject3_145150_932122062010.gif" width="250" alt="Your GIF Description" />
+<img src="./videos_and_figures/hoi_subject10_110947_839512060362.gif" width="250" alt="Your GIF Description" />
+<figcaption>Sample HOI videos generated using blender-hoisynth. </figcaption>
+</figure>
 
 
 # Requirements
@@ -87,7 +95,7 @@ move the scripts/generate_hand_pose.py to manopth
 ```bash
 mv scripts/generate_hand_pose.py  BlenderProc/examples/rendering/manopth
 ```
-# Use:
+# Use
 Download the [blendfiles]() for the demo and the blender-hoisynth software.
 
 ### Recording
