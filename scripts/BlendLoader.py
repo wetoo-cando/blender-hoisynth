@@ -1,6 +1,6 @@
 """Loading the content of .blend files
 
-    Based on: https://github.com/ho-simulation/blenderproc/blob/main/blenderproc/python/loader/BlendLoader.py"""
+    Based on: https://github.com/DLR-RM/BlenderProc/blob/main/blenderproc/python/loader/BlendLoader.py"""
 
 import re
 from typing import List, Union, Optional
