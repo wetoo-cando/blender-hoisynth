@@ -1,6 +1,6 @@
 """Allows rendering the content of the scene in the bop file format.
     
-    Based on: https://github.com/ho-simulation/blenderproc/blob/main/blenderproc/python/writer/BopWriterUtility.py"""
+    Based on: https://github.com/DLR-RM/BlenderProc/blob/main/blenderproc/python/writer/BopWriterUtility.py"""
 
 import json
 import os
