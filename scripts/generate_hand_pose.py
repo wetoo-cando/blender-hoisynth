@@ -1,3 +1,9 @@
+"""
+Copyright (C) 2024 Chengyan Zhang
+
+Based on https://github.com/facebookresearch/ContactPose/blob/a0920d88737418bf840b2445e01ea67adbc546c1/utilities/mano_fitting.py#L42
+"""
+
 import argparse
 import numpy as np
 import torch
