@@ -3,7 +3,7 @@ Copyright (C) 2024 Chengyan Zhang
 
 This file is part of blender-hoisynth, you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3.
 
-You should have received a copy of the GNU General Public License along with [Your Program's Name]. If not, see <http://www.gnu.org/licenses/>.
+You should have received a copy of the GNU General Public License along with blender-hoisynth. If not, see <http://www.gnu.org/licenses/>.
 """
 
 import png
