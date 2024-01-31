@@ -92,7 +92,7 @@ Move the scripts/generate_hand_pose.py to manopth
 mv scripts/generate_hand_pose.py  BlenderProc/examples/rendering/manopth
 ```
 # Use
-Download the [blendfiles]() for the demo and the blender-hoisynth software.
+Download the [blendfiles]() for the demo and the blender-hoisynth software. For the ICIP2024 reviewers, we have provided access details to the blendfiles in the supplementary materials. These materials will be released publicly conditioned on the acceptance of the paper for publication.
 
 ### Recording
 Recording should be done on Windows.
