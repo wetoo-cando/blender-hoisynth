@@ -68,7 +68,7 @@ Add code
 ```bash
 from blenderproc.python.writer.write_dexycb_data2 import write_dexycb_data2
 ``` 
-to the end of BlenderProc/blenderproc/api/writer/__init__.py
+`to the end of BlenderProc/blenderproc/api/writer/__init__.py`
 
 Move the rendering folder to BlenderProc
 ```bash
