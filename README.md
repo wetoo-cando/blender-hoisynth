@@ -1,6 +1,6 @@
 This repository is part of the supplementary materials for the ICIP 2024 submission titled "VR-based generation of photorealistic synthetic data for training hand-object tracking models". It provides several helpful scripts for rendering high-quality synthetic sequences of Hand-Object Interactions performed in VR using Blender. It also provides scripts for export data in the [DexYCB format](https://dex-ycb.github.io/).
 
-[Paper on ArXiv](https://github.com/wetoo-cando/blender-hoisynth.git)
+[Paper on ArXiv](https://arxiv.org/abs/2401.17874)
 
 The original Blender files are currently only provided to ICIP reviewers for the peer-review process. These materials will be released conditioned on the acceptance of the paper for publication. 
 
